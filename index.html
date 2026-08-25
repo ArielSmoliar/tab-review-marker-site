@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="See what needs review, what is done, and what needs attention directly in your Chrome tab strip.">
+  <title>Tab Review Marker</title>
+  <link rel="icon" href="assets/icon-32.png" sizes="32x32">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Tab Review Marker home">
+      <img src="assets/icon-48.png" width="40" height="40" alt="">
+      <span>Tab Review Marker</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://github.com/ArielSmoliar/tab-review-marker/issues">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">A calmer tab strip</p>
+        <h1>Know what deserves your attention.</h1>
+        <p class="lede">Mark every source as To Review, Reviewed, or Needs Attention. The status stays visible on its favicon while you read, compare, and prepare.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/ArielSmoliar/tab-review-marker/releases/tag/v0.1.0">Private beta</a>
+          <a class="button secondary" href="#how-it-works">See the workflow</a>
+        </div>
+        <p class="release-note">Chrome Web Store submission in progress. The current download requires beta access.</p>
+      </div>
+
+      <div class="tab-scene" aria-label="Three browser tabs marked To Review, Reviewed, and Needs Attention">
+        <div class="browser-bar" aria-hidden="true">
+          <span class="traffic red"></span><span class="traffic amber"></span><span class="traffic green"></span>
+        </div>
+        <div class="tabs">
+          <div class="tab selected">
+            <span class="favicon wiki">W<span class="badge todo">○</span></span>
+            <span class="tab-title">Market landscape</span>
+            <span class="close">×</span>
+          </div>
+          <div class="tab">
+            <span class="favicon doc">D<span class="badge done">✓</span></span>
+            <span class="tab-title">Customer notes</span>
+            <span class="close">×</span>
+          </div>
+          <div class="tab">
+            <span class="favicon chart">C<span class="badge attention">!</span></span>
+            <span class="tab-title">Q2 metrics</span>
+            <span class="close">×</span>
+          </div>
+        </div>
+        <div class="page-surface">
+          <div class="reading-line wide"></div>
+          <div class="reading-line"></div>
+          <div class="reading-line short"></div>
+          <div class="source-note">Three sources. No status held in memory.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="status-strip" aria-label="Review states">
+      <div><span class="large-mark todo">○</span><strong>To Review</strong><small>Still in the queue</small></div>
+      <div><span class="large-mark done">✓</span><strong>Reviewed</strong><small>Ready for synthesis</small></div>
+      <div><span class="large-mark attention">!</span><strong>Needs Attention</strong><small>Come back with focus</small></div>
+    </section>
+
+    <section class="workflow" id="how-it-works">
+      <div class="section-intro">
+        <p class="kicker">From tabs to evidence</p>
+        <h2>A visible review state, one click away.</h2>
+      </div>
+      <ol>
+        <li><span>01</span><div><h3>Mark the source</h3><p>Choose one of three unmistakable states from the extension popup.</p></div></li>
+        <li><span>02</span><div><h3>Keep reading</h3><p>The original favicon stays recognizable, with a compact status badge layered on top.</p></div></li>
+        <li><span>03</span><div><h3>Prepare the synthesis</h3><p>Add a note, review the current-window queue, and export organized source metadata for your AI workflow.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="privacy-promise">
+      <div>
+        <p class="kicker">Local by design</p>
+        <h2>Your reading stays yours.</h2>
+      </div>
+      <p>Tab Review Marker stores review metadata on your device. There is no account, analytics service, backend, or page-content extraction. Nothing is exported until you choose to copy or download it.</p>
+      <a href="privacy.html">Read the privacy policy <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Tab Review Marker</span>
+    <div><a href="privacy.html">Privacy</a><a href="https://github.com/ArielSmoliar/tab-review-marker/issues">Support</a></div>
+  </footer>
+</body>
+</html>

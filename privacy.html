@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Tab Review Marker.">
+  <title>Privacy Policy · Tab Review Marker</title>
+  <link rel="icon" href="assets/icon-32.png" sizes="32x32">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Tab Review Marker home"><img src="assets/icon-48.png" width="40" height="40" alt=""><span>Tab Review Marker</span></a>
+    <nav aria-label="Main navigation"><a href="./">Home</a><a aria-current="page" href="privacy.html">Privacy</a><a href="https://github.com/ArielSmoliar/tab-review-marker/issues">Support</a></nav>
+  </header>
+
+  <main class="policy">
+    <p class="kicker">Effective August 25, 2026</p>
+    <h1>Privacy policy</h1>
+    <p class="policy-lede">Tab Review Marker helps users assign review statuses and notes to web pages open in Chrome.</p>
+
+    <h2>Data handled</h2>
+    <p>The extension stores the page URL, page title, user-selected review status, optional user-written note, optional AI-access hint, and update time. This information is stored locally on the user's device using Chrome's extension storage.</p>
+    <p>The extension does not read page body content, collect analytics, use cookies for tracking, create user accounts, or transmit review data to the developer or any third party.</p>
+
+    <h2>How data is used</h2>
+    <p>Locally stored information is used only to display review state, apply favicon status markers, build the current-window review queue, and create an export when the user explicitly requests one.</p>
+    <p>Exports may be copied to the clipboard or downloaded as a file. The user controls whether and where exported information is subsequently shared.</p>
+
+    <h2>Permissions</h2>
+    <dl>
+      <dt>Storage</dt><dd>Stores review records locally.</dd>
+      <dt>Tabs</dt><dd>Identifies open sources and synchronizes status across duplicate tabs.</dd>
+      <dt>Scripting</dt><dd>Applies or removes favicon markers after the user selects a status.</dd>
+      <dt>Favicon</dt><dd>Obtains the page's existing icon so it can be preserved beneath the marker.</dd>
+      <dt>Offscreen</dt><dd>Provides the browser canvas used to compose favicon badges.</dd>
+      <dt>Optional site access</dt><dd>Requested one site at a time when the user asks to apply a marker. The injected script changes favicon elements only.</dd>
+    </dl>
+
+    <h2>Data retention and deletion</h2>
+    <p>Records expire after 30 days. Users can clear an individual mark from the popup or delete all locally stored review data from the extension's settings page. Uninstalling the extension also removes its local extension storage through Chrome.</p>
+
+    <h2>Limited use</h2>
+    <p>The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+    <h2>Changes</h2>
+    <p>Material changes to this policy will appear on this page and in the Chrome Web Store disclosures before an updated version is published.</p>
+
+    <h2>Contact</h2>
+    <p>Questions can be submitted through the <a href="https://github.com/ArielSmoliar/tab-review-marker/issues">Tab Review Marker support page</a>.</p>
+  </main>
+
+  <footer><span>© 2026 Tab Review Marker</span><div><a href="./">Home</a><a href="https://github.com/ArielSmoliar/tab-review-marker/issues">Support</a></div></footer>
+</body>
+</html>
