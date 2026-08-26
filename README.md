@@ -2,7 +2,7 @@
 
 This repository hosts the public website, privacy policy, and support entry point for **Tab Review Marker**, a Chrome extension that keeps review status visible directly in the browser tab strip.
 
-[Visit the product site](https://arielsmoliar.github.io/tab-review-marker-site/) · [Read the privacy policy](https://arielsmoliar.github.io/tab-review-marker-site/privacy.html) · [Get support](https://github.com/ArielSmoliar/tab-review-marker-site/issues)
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/tab-review-marker/gpbjejflccaaljhbdkjmihdfmmegoega) · [Visit the product site](https://arielsmoliar.github.io/tab-review-marker-site/) · [Read the privacy policy](https://arielsmoliar.github.io/tab-review-marker-site/privacy.html) · [Get support](https://github.com/ArielSmoliar/tab-review-marker-site/issues)
 
 ## What Tab Review Marker does
 
@@ -16,9 +16,7 @@ The marker remains visible while you read, compare, and synthesize multiple sour
 
 ## Public-beta status
 
-Version `0.1.0` has passed its release checks and is prepared for a public Chrome Web Store beta. Google’s developer-account verification is currently pending.
-
-Public installation is not available until the Chrome Web Store listing is approved. The installation link will be added here and on the product site as soon as it is live.
+Tab Review Marker is publicly available from the [Chrome Web Store](https://chromewebstore.google.com/detail/tab-review-marker/gpbjejflccaaljhbdkjmihdfmmegoega).
 
 ## Privacy
 
